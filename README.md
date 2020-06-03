@@ -8,7 +8,7 @@ You may need to use `sudo` to run the following commands.
 
 ## Update Nginx configurations
 
-First, check your domain has been resolved correctly.
+First, check your domain has been resolved correctly
 ```
 dig subdomain.example.conf
 ```
@@ -18,7 +18,7 @@ Clone this repo
 git clone https://github.com/mrchi/secure-nginx.git
 ```
 
-Copy files to `/etc/nginx`, just overwrite existing files
+Assuming you have backed up the files, then copy these configuration to `/etc/nginx`
 ```
 cp -R secure-nginx/nginx/* /etc/nginx
 ```

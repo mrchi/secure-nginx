@@ -10,7 +10,7 @@ You may need to use `sudo` to run the following commands.
 
 First, check your domain has been resolved correctly
 ```
-dig subdomain.example.conf
+dig subdomain.example.com
 ```
 
 Clone this repo
